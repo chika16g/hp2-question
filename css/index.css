@@ -1,0 +1,244 @@
+@charset "UTF-8";
+
+/* ===========================================
+header
+=========================================== */
+.header-wrapper {
+  width: 100%;
+  height: 85vh;
+  background-image: url(../img/top.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative; /* h1(header-wrapper__ttl)にかかっている */
+}
+
+.header-wrapper__ttl {
+  position: absolute;
+  right: 8%;
+  bottom: 40%;
+}
+
+/* ===========================================
+menu
+=========================================== */
+
+#menu {
+  background-color: #733d29;
+  opacity: 0.9;
+}
+
+.menu-wrapper {
+  max-width: 750px;
+}
+
+.menu-wrapper__list {
+  display: flex;
+  align-items: center;
+}
+
+.menu-wrapper__list__item {
+  margin-left: 3%;
+  color: white;
+}
+
+.menu-wrapper__list__item:first-child {
+  margin-left: unset;
+}
+
+/* ===========================================
+about
+=========================================== */
+
+#about {
+  background-color: #dfd8cb;
+}
+
+.about-wrapper {
+  text-align: center;
+}
+
+.about-wrapper__box {
+  margin: 0 auto;
+  max-width: 750px;
+  height: 250px;
+  border: 1px solid #000;
+  position: relative; /* ttl aboutの位置調整 */
+}
+
+.about-wrapper__box__ttl {
+  display: inline-block;
+  padding: 8px;
+  background-color: #dfd8cb;
+  position: absolute;
+  top: -40px;
+  left: 39%;
+}
+
+.about-wrapper__box__txt {
+  padding: 10% 0 1% 0;
+}
+
+.about-wrapper__box .view-more {
+  margin: 3% 0;
+}
+
+/* ===========================================
+service
+=========================================== */
+
+.service-wrapper__ttl {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.service-wrapper__flex {
+  display: flex;
+  justify-content: center;
+}
+
+.service-wrapper__flex__item1 {
+  background-color: rgb(223, 215, 215);
+  height: 300px;
+  flex: 1 1 auto;
+  background-image: url(../img/flower1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
+}
+
+.service-wrapper__flex__item2 {
+  width: 350px;
+  height: 300px;
+  background-color: #dfd8cb;
+  text-align: center;
+}
+
+.service-wrapper__flex__item2__txt{
+  margin: 17% 0;
+}
+
+.service-wrapper__flex__item3 {
+  height: 300px;
+  flex: 1 1 auto;
+  background-image: url(../img/flower2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
+}
+
+/* ===========================================
+works
+=========================================== */
+
+.works-wrapper__ttl{
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.works-wrapper__flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footcare{
+  width: 250px;
+  background-color: rgb(226, 217, 217);
+}
+
+.works-wrapper__flex__item{
+  height: auto;
+  border: 1px solid #000;
+  padding: 16px 20px 30px 20px;
+}
+
+.works-wrapper__flex__item__txt{
+  font-size: 0.95rem;
+  text-align: left;
+}
+
+.works-wrapper{
+  text-align: center;
+}
+
+.works-wrapper .view-more{
+  margin-top: 5%;
+}
+
+/* ===========================================
+price
+=========================================== */
+
+#price {
+  background-color: #dfd8cb;
+}
+
+.price-wrapper {
+  text-align: center;
+}
+
+.price-wrapper__box {
+  margin: 0 auto;
+  max-width: 750px;
+  height: 280px;
+  border: 1px solid #000;
+  position: relative; /* ttl priceの位置調整 */
+}
+
+.price-wrapper__box__ttl {
+  display: inline-block;
+  padding: 8px;
+  background-color: #dfd8cb;
+  position: absolute;
+  top: -40px;
+  left: 39%;
+}
+
+.price-wrapper__box__txt {
+  padding: 10% 0 1% 0;
+}
+
+.price-wrapper__box .view-more {
+  margin: 3% 0;
+}
+
+/* ===========================================
+contact
+=========================================== */
+
+.contact-wrapper__ttl{
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.contact-wrapper__flex{
+  display: flex;
+}
+
+.contact-wrapper__flex__item1{
+  height: 400px;
+  flex: 1 1 auto;
+  background-image: url(../img/flower2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
+}
+
+.contact-wrapper__flex__item2{
+  height: 400px;
+  flex: 1 1 auto;
+  background-color: #dfd8cb;
+}
+
+.contact-wrapper__flex__item2__triangle{
+  width: 100px;
+  border-top: 50px solid #F0897F;
+  border-right: 50px solid transparent;
+  /* border-bottom: 50px solid transparent; */
+  border-left: 50px solid transparent;
+}
+
+
+
